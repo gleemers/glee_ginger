@@ -1,5 +1,5 @@
 name = "ginger"
-version = "1.0.0"
+version = "1.0.1"
 description = "Jinja2 template engine for Gleam"
 licences = ["MIT"]
 repository = { type = "github", user = "Gleemers", repo = "glee_ginger" }
