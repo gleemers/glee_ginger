@@ -59,7 +59,7 @@ fn render_variables(
   content: String,
   context: Dict(String, String),
 ) -> Result(String, TemplateError) {
-  case regexp.from_string("\\{\\{\\s*(\\w+)\\s*\\}\\}") {
+  case regexp.from_string("\\{\\%\\s*(\\w+)\\s*\\%\\}") {
     Ok(re) -> {
       let matches = regexp.scan(with: re, content: content)
       let result = replace_matches(content, matches, context)
