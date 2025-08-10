@@ -1,0 +1,14 @@
+name = "ginger"
+version = "1.0.0"
+description = "Jinja2 template engine for Gleam"
+licences = ["MIT"]
+repository = { type = "github", user = "Gleemers", repo = "https://github.com/gleemers/glee_ginger.git" }
+links = [{ title = "thoq.dev", href = "https://thoq.dev" }]
+
+[dependencies]
+gleam_stdlib = ">= 0.44.0 and < 2.0.0"
+simplifile = ">= 2.3.0 and < 3.0.0"
+gleam_regexp = ">= 1.1.1 and < 2.0.0"
+
+[dev-dependencies]
+gleeunit = ">= 1.0.0 and < 2.0.0"
